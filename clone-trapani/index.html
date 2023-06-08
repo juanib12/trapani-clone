@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clone - Trapani</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>Trapani</h2>
+      </div>
+    </header>
+
+    <div class="image">
+      <img src="./images/helados.webp" alt="heladeria">
+    </div>
+    <section class="header-comer">
+
+
+      <div class="info-comer">
+
+        <div class="info-comer-head">
+          <strong>Trapani</strong>
+          <a href="https://www.google.com.ar/maps/place/Avenida%20Sarmiento%2061,%20Chivilcoy,%20Provincia%20de%20Buenos%20Aires,%20Argentina" target="_blank"><span>🚩 Avenida Sarmiento 61, Chivilcoy</span></a>
+        </div>
+
+        <!-- <div class="info-comer-footer">
+          <input type="text" placeholder="Dirección de domicilio..." name="direccion">
+          <input type="submit" value="Ingresar Dirección" class="btn">
+        </div> -->
+
+      </div>
+      
+      <section id="categorias">
+        <strong> Categorias</strong>
+      </section>
+
+      <section id="productos"></section>
+
+      <!-- <a href="cart.html" class="header-comer-footer"><span data-cart-count></span> Ver mi pedido</a> -->
+    
+    </section>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <img src="data:image/png;base64,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" class="close">
+        <div data-modal></div>
+      </div>
+    </div>
+
+
+    
+    <script src="./js/script.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

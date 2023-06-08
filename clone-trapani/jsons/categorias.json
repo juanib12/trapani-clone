@@ -1,0 +1,77 @@
+[
+    {
+        "id": "cat001",
+        "categoria": "Helados",
+        "productos": [
+            {
+                "id": "p001",
+                "nombre": "1 Kg",
+                "precio": 3200,
+                "categoria": "cat-prod001"
+            },
+            {
+                "id": "p002",
+                "nombre": "1/2 Kg",
+                "precio": 1800,
+                "categoria": "cat-prod002"
+            },
+            {
+                "id": "p003",
+                "nombre": "1/4 Kg",
+                "precio": 950,
+                "categoria": "cat-prod003"
+            }
+        ],
+        "gustos": true
+    },
+    {
+        "id": "cat002",
+        "categoria": "Pasteleria",
+        "productos": [
+            {
+                "id": "p004",
+                "nombre": "Torta de Chocolate",
+                "precio": 700,
+                "categoria": "cat-prod004"
+            },
+            {
+                "id": "p005",
+                "nombre": "Medialuna",
+                "precio": 200,
+                "categoria": "cat-prod005"
+            },
+            {
+                "id": "p006",
+                "nombre": "Muffins de Coco",
+                "precio": 450,
+                "categoria": "cat-prod006"
+            }
+        ],
+        "gustos": false
+    },
+    {
+        "id": "cat003",
+        "categoria": "Salados",
+        "productos": [
+            {
+                "id": "p007",
+                "nombre": "Tostado de Jamon y Queso",
+                "precio": 1200,
+                "categoria": "cat-prod007"
+            },
+            {
+                "id": "p008",
+                "nombre": "Lomito",
+                "precio": 900,
+                "categoria": "cat-prod008"
+            },
+            {
+                "id": "p009",
+                "nombre": "Sandwich de Jamon Crudo",
+                "precio": 1350,
+                "categoria": "cat-prod009"
+            }
+        ],
+        "gustos": false
+    }
+]

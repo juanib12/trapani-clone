@@ -1,0 +1,14 @@
+[
+    {
+        "producto": "1 Kg",
+        "precio": 3200
+    },
+    {
+        "producto": "1/2 Kg",
+        "precio": 1800
+    },
+    {
+        "producto": "1/4 Kg",
+        "precio": 950
+    }
+]

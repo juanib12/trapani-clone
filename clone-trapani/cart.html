@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h2>Trapani</h2>
+    </div>
+  </header>
+
+  <section id="cart">
+      <h3>Carrito</h3>
+
+      <div class="container_cart_form">
+        <div class="container_cart">
+          <div class="total" id="total"></div>
+        </div>
+
+        <a href="#" data-clear class="clear">Limpiar</a>
+        <a href="index.html" class="more-food">
+          Agregar mas comida
+        </a>
+        
+        <div class="formulario">
+          <h2>Tus datos</h2>
+          <form id="form">
+            <label for="nombre">Nombre*</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="telefono">Teléfono*</label>
+            <input type="tel" id="telefono" name="telefono" required />
+
+            <h2>Tu dirección</h2>
+            <label for="direccion">Dirección*</label>
+            <input type="text" name="direccion" id="direccion" required>
+
+            <input type="submit" value="Realizar compra" id="submit"/>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-cart">
+        <a href="index.html" class="cart-footer">Volver atras</a>
+      </div>
+
+    </section>
+
+
+
+  <script src="./js/cart.js"></script>
+</body>
+</html>

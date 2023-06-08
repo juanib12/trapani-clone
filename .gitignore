@@ -1,0 +1,7 @@
+clone-trapani-server/.env
+clone-trapani-server/.gitignore
+clone-trapani-server/package-lock.json
+clone-trapani-server/package.json
+clone-trapani-server/server.js
+clone-trapani-server/controllers/categorias.controller.js
+clone-trapani-server/models/categorias.model.js
